@@ -2,12 +2,12 @@ import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div class="bg-teal-100 text-teal-700">
-        <div class="flex justify-between items-center max-w-6xl h-16 mx-auto">
+      <div className="bg-teal-100 text-teal-700">
+        <div className="flex justify-between items-center max-w-6xl h-16 mx-auto">
           <Link to="/">
-            <h1 class="font-bold">Auth App</h1>
+            <h1 className="font-bold">Auth App</h1>
           </Link>
-          <ul class="flex gap-4 text-lg">
+          <ul className="flex gap-4 text-lg">
             <Link to="/">
               <li>Home</li>
             </Link>
