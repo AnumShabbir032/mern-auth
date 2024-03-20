@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div className="bg-teal-100 text-teal-700">
+      <div className="border-indigo-100 bg-indigo-50 text-border-indigo-100">
         <div className="flex justify-between items-center max-w-6xl h-16 mx-auto">
           <Link to="/">
             <h1 className="font-bold">Auth App</h1>
